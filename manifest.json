@@ -1,0 +1,10 @@
+{
+  "id": "phisher-nuvio",
+  "name": "Phisher Nuvio",
+  "version": "1.0.0",
+  "description": "Nuvio plugin catalog based on publicly listed Phisher CloudStream provider metadata. Native provider ports are not included yet.",
+  "author": "Community adaptation",
+  "repository": "https://github.com/h97667611-dotcom/Phisher-Nuvio",
+  "entry": "providers/index.js",
+  "icon": "https://raw.githubusercontent.com/h97667611-dotcom/Phisher-Nuvio/main/icon.png"
+}

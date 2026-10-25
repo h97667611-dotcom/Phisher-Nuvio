@@ -1,0 +1,7 @@
+{
+  "sourceRepository": "https://github.com/phisher98/cloudstream-extensions-phisher/tree/builds",
+  "sourceManifest": "https://raw.githubusercontent.com/phisher98/cloudstream-extensions-phisher/refs/heads/builds/repo.json",
+  "format": "CloudStream .cs3",
+  "compatibility": "Not directly executable in Nuvio; each provider requires a JavaScript port.",
+  "providers": []
+}

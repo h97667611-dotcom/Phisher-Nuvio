@@ -1,0 +1,6 @@
+<!doctype html>
+<html lang="de">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Phisher Nuvio installieren</title>
+<style>body{font-family:system-ui,sans-serif;max-width:680px;margin:3rem auto;padding:0 1rem;background:#111;color:#eee}a,button{background:#6c5ce7;color:white;padding:1rem 1.25rem;border:0;border-radius:.7rem;text-decoration:none;display:inline-block;font-weight:700}code{display:block;overflow-wrap:anywhere;background:#222;padding:1rem;border-radius:.6rem;margin:1rem 0}</style></head>
+<body><h1>Phisher Nuvio</h1><p>Repository-Manifest für Nuvio:</p><code id="url">https://raw.githubusercontent.com/h97667611-dotcom/Phisher-Nuvio/main/manifest.json</code><button id="install">Installieren</button><p id="note">Wenn Nuvio den Link nicht automatisch öffnet, kopiere die Manifest-URL und füge sie in Nuvio unter Plugins → Add repository ein.</p>
+<script>document.getElementById('install').onclick=()=>{const u=document.getElementById('url').textContent;location.href='nuvio://add-repository?url='+encodeURIComponent(u);setTimeout(()=>{navigator.clipboard?.writeText(u).catch(()=>{});},500);};</script></body></html>
