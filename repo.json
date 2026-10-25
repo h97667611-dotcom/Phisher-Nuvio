@@ -1,0 +1,8 @@
+{
+  "name": "Phisher-Nuvio",
+  "description": "Porting catalog only; no native Nuvio providers are currently published.",
+  "manifestVersion": 1,
+  "pluginLists": [
+    "https://raw.githubusercontent.com/h97667611-dotcom/Phisher-Nuvio/main/catalog/upstream-plugins.json"
+  ]
+}
